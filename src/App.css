@@ -1,0 +1,137 @@
+body {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-color {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.avatar-img {
+  height: 200px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background: rgba(17, 17, 17, 0.13);
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h2{
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
+.category-tabs{
+  background-color: white;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/*contact-page*/
+.contact-body {
+  margin: auto;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.contact-grid {
+  color: red;
+  text-align: center;
+  width: 80%;
+  height: 600px;
+  color: black;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid p {
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  width: 75%;
+  margin: auto;
+}
+
+.contact-list {
+  padding-left: 20px;
+  width: 80%;
+}
+.contact-list i {
+  font-size: 50px;
+  padding-right: 2rem;
+}
+/*contact-page*/
+
+/*resume-page*/
+.resume-grid {
+  background: white;
+  width: 80%;
+  height: 100%;
+}
+
+.resume-left-col {
+  padding-left: 2em;
+}
+
+.resume-right-col {
+  color: black;
+  padding-left: 3em;
+}
+
+
+
+/*resume-page*/
