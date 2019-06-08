@@ -13,7 +13,7 @@ class Landing extends Component {
             style={{height: '250px', borderRadius: '5%'}}
            />
             <div className="banner-text">
-              <h2>Full Stack Web Developer</h2>
+              <h2>Frontend/Backend Developer</h2>
               <hr/>
               <p>HTMl/CSS | Bootstrap | Sass | JQuery | JavaScript | React | Redux | NodeJS | Python | SQL</p>
               <div className="social-links">
