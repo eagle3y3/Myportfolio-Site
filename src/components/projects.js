@@ -19,7 +19,7 @@ class Projects extends Component {
               My  site using react and several libraries.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button colored href="https://github.com/eagle3y3/Myportfolio-Site" target="_blank" rel="noopener noreferrer">Github</Button>
             </CardActions>
           </Card>
         </div>
