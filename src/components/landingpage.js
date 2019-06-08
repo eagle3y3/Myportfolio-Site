@@ -13,7 +13,11 @@ class Landing extends Component {
             style={{height: '250px', borderRadius: '5%'}}
            />
             <div className="banner-text">
+<<<<<<< HEAD
               <h2>Frontend / Backend Developer</h2>
+=======
+              <h2>Frontend/Backend Developer</h2>
+>>>>>>> 421b16ed2f1aa67eb6e2948a942d4d0abfe4d084
               <hr/>
               <p>HTMl/CSS | Bootstrap | Sass | JQuery | JavaScript | React | Redux | NodeJS | Python | SQL</p>
               <div className="social-links">
