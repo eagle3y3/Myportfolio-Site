@@ -23,12 +23,12 @@ class Projects extends Component {
               <Button colored href="https://github.com/eagle3y3/Myportfolio-Site" target="_blank" rel="noopener noreferrer">Github</Button>
             </CardActions>
           </Card>
+
           {/*URL Shortener*/}
           <Card shadow={3} style={{width:'300px', height:'300px', margin:'auto'}}>
             <CardTitle expand style={{color: '#fff', height: '200px', background:
             'url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwif-9Gns4HjAhVHiqwKHfyuAC8QjRx6BAgBEAU&url=https%3A%2F%2Fmybigplunge.com%2Fopinion%2Falternatives-to-google-url-shortener%2F&psig=AOvVaw2xgNxjAgesmucymuWyazDb&ust=1561441035953091)
-            center/cover'
-          }}>URL Shortener</CardTitle>
+            center/cover'}}>URL Shortener</CardTitle>
             <CardText>
             Full-Stack microservice using the MERN stack(MongoDb, Express, React, Nodejs)
             </CardText>
