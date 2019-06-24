@@ -27,13 +27,15 @@ class Projects extends Component {
           {/*Portfolio*/}
           <Card shadow={3} style={{width:'300px', height:'300px', margin:'auto'}}>
             <CardTitle expand style={{color: '#fff', height: '200px', background:
-            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8iL9qH68Mp0feu9-xPdRTwBZ5s3MfXc6kksNAYY2MUgn_QH_aA)'}}>
+            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8iL9qH68Mp0feu9-xPdRTwBZ5s3MfXc6kksNAYY2MUgn_QH_aA)'
+            , backgroundRepeat: "no-repeat"}}>
             URL Shortener</CardTitle>
             <CardText>
-              My  site using react and several libraries.
+              Full-stack microservice using the MERN(MongoDB, Express, React, Nodejs) stack.
             </CardText>
             <CardActions border>
               <Button colored href="https://github.com/eagle3y3/Myportfolio-Site" target="_blank" rel="noopener noreferrer">Github</Button>
+              <Button colored href="https://lester-short-url.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</Button>
             </CardActions>
           </Card>
 
