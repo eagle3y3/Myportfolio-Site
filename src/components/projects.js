@@ -27,8 +27,7 @@ class Projects extends Component {
           {/*Portfolio*/}
           <Card shadow={3} style={{width:'300px', height:'300px', margin:'auto'}}>
             <CardTitle expand style={{color: '#fff', height: '200px', background:
-            'url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwif-9Gns4HjAhVHiqwKHfyuAC8QjRx6BAgBEAU&url=https%3A%2F%2Fmybigplunge.com%2Fopinion%2Falternatives-to-google-url-shortener%2F&psig=AOvVaw2xgNxjAgesmucymuWyazDb&ust=1561441035953091)
-            center/cover'}}>
+            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8iL9qH68Mp0feu9-xPdRTwBZ5s3MfXc6kksNAYY2MUgn_QH_aA)'}}>
             URL Shortener</CardTitle>
             <CardText>
               My  site using react and several libraries.
