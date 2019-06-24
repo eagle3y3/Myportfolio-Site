@@ -34,8 +34,22 @@ class Projects extends Component {
               Full-stack microservice using the MERN(MongoDB, Express, React, Nodejs) stack.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/eagle3y3/Myportfolio-Site" target="_blank" rel="noopener noreferrer">Github</Button>
+              <Button colored href="https://github.com/eagle3y3/URL-Shortener" target="_blank" rel="noopener noreferrer">Github</Button>
               <Button colored href="https://lester-short-url.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</Button>
+            </CardActions>
+          </Card>
+
+          {/*Exercise Tracker*/}
+          <Card shadow={3} style={{width:'300px', height:'300px', margin:'auto'}}>
+            <CardTitle expand style={{color: '#fff', height: '200px', background:
+            'url(https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Article+Image+Update/Running/Run-Walk-Run/carousel.jpg) center/cover'}}>
+            Exercise Tracker</CardTitle>
+            <CardText>
+              Full-stack application that logs the users, excercises, and time frames using MongoDB, HTML, CSS, Express
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://lester-exercisetracker.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</Button>
+              <Button colored href="https://github.com/eagle3y3/Excercise-Tracker" target="_blank" rel="noopener noreferrer">Github</Button>
             </CardActions>
           </Card>
 
@@ -153,7 +167,7 @@ class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-          <Tab>React</Tab>
+          <Tab>React/Full-Stack</Tab>
           <Tab>Python</Tab>
           <Tab>HTML/CSS</Tab>
         </Tabs>
