@@ -34,8 +34,8 @@ class Projects extends Component {
               Full-stack microservice using the MERN(MongoDB, Express, React, Nodejs) stack.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/eagle3y3/URL-Shortener" target="_blank" rel="noopener noreferrer">Github</Button>
               <Button colored href="https://lester-short-url.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</Button>
+              <Button colored href="https://github.com/eagle3y3/URL-Shortener" target="_blank" rel="noopener noreferrer">Github</Button>
             </CardActions>
           </Card>
 
