@@ -24,11 +24,11 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Portfolio*/}
+          {/*URL Shortener Microservice*/}
           <Card shadow={3} style={{width:'300px', height:'300px', margin:'auto'}}>
-            <CardTitle expand style={{color: '#fff', height: '200px', background:
-            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8iL9qH68Mp0feu9-xPdRTwBZ5s3MfXc6kksNAYY2MUgn_QH_aA)'
-            , backgroundRepeat: "no-repeat"}}>
+            <CardTitle expand style={{color: '#fff', height: '100px', background:
+            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8iL9qH68Mp0feu9-xPdRTwBZ5s3MfXc6kksNAYY2MUgn_QH_aA)',
+            backgroundRepeat: 'no-repeat'}}>
             URL Shortener</CardTitle>
             <CardText>
               Full-stack microservice using the MERN(MongoDB, Express, React, Nodejs) stack.
